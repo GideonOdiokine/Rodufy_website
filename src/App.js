@@ -1,11 +1,13 @@
 import React from "react";
 import "./App.scss";
-import Register from "./pages/auth/Register";
+import Login from "./pages/auth/Login";
+// import Register from "./pages/auth/Register";
 
 const App = () => {
   return (
     <main>
-      <Register />
+      {/* <Register /> */}
+      <Login />
     </main>
   );
 };

@@ -2,6 +2,7 @@ import React from "react";
 import "./styles/register.scss";
 import logo from "../../assets/image/logo.png";
 import Input from "../../components/inputs/Input";
+import Button from "../../components/inputs/Button";
 
 const Register = () => {
   return (
@@ -16,6 +17,7 @@ const Register = () => {
           <h3>Register</h3>
           <Input type="text" placeholder="Email" />
           <Input type="password" placeholder="Password" />
+          <Button type="submit" text="Register" />
         </form>
       </div>
     </div>
