@@ -1,0 +1,43 @@
+.hero__second {
+
+    padding: 30px 40px;
+
+    .hero__content {
+        padding-top: 80px;
+        display: flex;
+        justify-content: space-between;
+
+        .left {
+            h3 {
+                font-style: normal;
+                font-weight: 700;
+                font-size: 64px;
+                line-height: 91px;
+
+
+                color: #000000;
+
+                span {
+                    color: #EA7052;
+
+                }
+            }
+
+            p {
+                font-style: normal;
+                font-weight: 300;
+                font-size: 32px;
+                line-height: 46px;
+
+                color: #000000;
+
+                padding: 65px 0;
+            }
+
+            .hero__icons {
+                width: 614px;
+            }
+
+        }
+    }
+}
