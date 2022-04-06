@@ -1,6 +1,17 @@
 .home {
     .hero {
+        padding: 20px 40px;
+
         height: 400px;
         background-color: #301446;
+
+        .hero__container {
+
+            &>.logo {
+                img {
+                    width: 200px;
+                }
+            }
+        }
     }
 }
