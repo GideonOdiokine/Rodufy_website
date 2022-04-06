@@ -1,13 +1,15 @@
 import React from "react";
 import "./App.scss";
-import Login from "./pages/auth/Login";
+import Home from "./pages/home";
+// import Login from "./pages/auth/Login";
 // import Register from "./pages/auth/Register";
 
 const App = () => {
   return (
     <main>
       {/* <Register /> */}
-      <Login />
+      {/* <Login /> */}
+      <Home />
     </main>
   );
 };

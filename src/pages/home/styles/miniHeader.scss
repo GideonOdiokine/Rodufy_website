@@ -1,0 +1,33 @@
+.mini__top {
+    background-color: #EA7052;
+    padding: 20px 40px;
+
+    .top__content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        span {
+            background: rgba(90, 68, 68, 0.2);
+            border-radius: 16px;
+            padding: 10px 40px;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 36px;
+            line-height: 51px;
+
+            color: #FFFFFF;
+        }
+
+        p {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 36px;
+            line-height: 51px;
+
+            color: #FFFFFF;
+            border-bottom: 1px solid #fff;
+
+        }
+    }
+}
