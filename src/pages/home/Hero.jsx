@@ -1,23 +1,25 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import logo from "../../assets/image/logo.png";
 import PlayStore from "../../assets/image/img_1.png";
 import Apple from "../../assets/image/img_2.png";
 import showcase from "../../assets/image/showcase.png";
-import Button from "../../components/inputs/Button";
 
 const Hero = () => {
   return (
     <section className="hero">
       <div className="hero__container">
         <div className="logo">
-          <img src={logo} alt="logo" />
+          <Link to="/">
+            <img src={logo} alt="logo" />
+          </Link>
         </div>
         <div className="hero__btns">
           <div className="sign__up">
-            <Button text="Register" />
+            <Link to="/register">Register</Link>
           </div>
-          <div className="sign__up">
-            <Button text="Login" bg="transparent" />
+          <div className="sign__in">
+            <Link to="/login">Login</Link>
           </div>
         </div>
       </div>
