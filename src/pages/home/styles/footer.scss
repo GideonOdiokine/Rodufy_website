@@ -1,0 +1,28 @@
+footer {
+    background-color: #301446;
+    padding: 50px 60px;
+
+    .footer__content {
+        nav {
+            padding: 40px 0;
+
+            ul {
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+
+                li {
+                    a {
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 32px;
+                        line-height: 57px;
+
+                        color: #FFFFFF;
+                        padding: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
