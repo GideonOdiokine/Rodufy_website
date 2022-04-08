@@ -1,13 +1,14 @@
 import React from "react";
 import "./styles/miniHeader.scss";
 
-const MiniHeader = () => {
+const MiniHeader = ({ handleShow }) => {
   return (
     <div className="mini__top">
       <div className="top__content">
         <span>New!</span>
         <p>Announcing our $15 million series A funding!</p>
         <svg
+          onClick={handleShow}
           width="59"
           height="59"
           viewBox="0 0 59 59"
