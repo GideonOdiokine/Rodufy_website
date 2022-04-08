@@ -1,13 +1,10 @@
 import React from "react";
 import "./styles/Button.scss";
 
-const Button = ({ type, text, bg }) => {
+const Button = ({ type, text, bg, handleClick }) => {
   return (
     <div className="button">
-      <button
-        style={{ background: bg, border: bg ? "1px solid #EA7052" : "" }}
-        type={type}
-      >
+      <button onClick={handleClick} type={type}>
         {text}
       </button>
     </div>

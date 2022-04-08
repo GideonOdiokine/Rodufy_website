@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.scss";
 import { Routes, Route } from "react-router-dom";
-import Home from "./pages/home";
+import Home from "./pages/home/Index";
 import Login from "./pages/auth/Login";
 import Register from "./pages/auth/Register";
 
