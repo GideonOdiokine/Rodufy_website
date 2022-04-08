@@ -29,5 +29,41 @@
             border-bottom: 1px solid #fff;
 
         }
+        svg{
+            cursor: pointer;
+        }
     }
+}
+
+
+@media(max-width:1048px) {
+    .mini__top {
+        padding: 10px 20px;
+    }
+
+    .mini__top .top__content {
+        flex-wrap: wrap;
+    }
+}
+
+@media(max-width:1004px) {
+
+
+    .mini__top .top__content {
+        display: block;
+        text-align: center;
+
+        span {
+            font-size: 20px;
+        }
+
+        p {
+            font-size: 20px;
+        }
+
+        svg {
+            padding: 10px;
+        }
+    }
+
 }

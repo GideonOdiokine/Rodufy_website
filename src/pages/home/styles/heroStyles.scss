@@ -1,6 +1,6 @@
 .hero__second {
 
-    padding: 30px 40px;
+    padding: 30px 60px;
 
     .hero__content {
         padding-top: 80px;
@@ -8,6 +8,8 @@
         justify-content: space-between;
 
         .left {
+            padding-right: 60px;
+
             h3 {
                 font-style: normal;
                 font-weight: 700;
@@ -35,9 +37,32 @@
             }
 
             .hero__icons {
-                width: 614px;
+                width: 520px;
             }
 
         }
+    }
+}
+
+#hero__second {
+    background-color: #F4F4F4;
+
+    .right {
+        img {
+            width: 520px;
+        }
+    }
+
+}
+
+
+@media(max-width:500px) {
+    .hero__second .hero__content .left {
+        padding-right: initial;
+    }
+
+    .hero__second .hero__content .left h3 {
+        line-height: initial;
+        font-size: 32px;
     }
 }

@@ -1,6 +1,6 @@
 .home {
     .hero {
-        padding: 30px 40px;
+        padding: 30px 60px;
 
         background-color: #301446;
 
@@ -20,8 +20,38 @@
                 justify-content: space-between;
 
                 .sign__up {
-                    width: 259px;
                     margin: 0 16px;
+
+                    a {
+                        background: #EA7052;
+                        border-radius: 16px;
+                        padding: 8px 28px;
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 36px;
+                        line-height: 51px;
+
+                        color: #FFFFFF;
+
+                    }
+
+                }
+
+                .sign__in {
+                    // margin: 0 16px;
+
+                    a {
+                        background: #EA7052;
+                        border-radius: 16px;
+                        padding: 8px 28px;
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 36px;
+                        line-height: 51px;
+
+                        color: #FFFFFF;
+
+                    }
 
                 }
             }
@@ -78,6 +108,84 @@
                     }
                 }
             }
+
+            // .right {
+
+
+            //     img {
+            //         max-width: 100%;
+            //         height: 100%;
+            //     }
+            // }
         }
+    }
+}
+
+
+@media(max-width:1115px) {
+    .home .hero .hero__content {
+        display: block;
+    }
+
+    .hero .hero__container .right {
+        img {
+            padding-top: 20px;
+        }
+    }
+
+    .hero__second .hero__content {
+        display: block;
+    }
+
+    .hero__second .hero__content .right {
+        img {
+            max-width: 100%;
+            padding-top: 20px;
+
+        }
+    }
+
+    .home .hero .hero__content .left .hero__icons {
+        padding-bottom: 20px;
+    }
+
+    .hero__second .hero__content .left .hero__icons {
+        width: 100%;
+    }
+}
+
+@media(max-width:1048px) {
+    .home .hero .hero__container {
+        display: block;
+    }
+
+    .home .hero .hero__container .hero__btns .sign__up {
+        width: initial;
+    }
+
+    .button button {
+        line-height: 1;
+        font-size: 13px;
+        padding: 10px 18px;
+    }
+
+
+
+    .home .hero .hero__content .left h3 {
+        line-height: initial;
+        font-size: 32px;
+    }
+
+
+
+
+    .home .hero .hero__content .right {
+        img {
+            max-width: 100%;
+        }
+    }
+
+    .home .hero .hero__content .left .hero__icons {
+        display: none;
     }
 }
